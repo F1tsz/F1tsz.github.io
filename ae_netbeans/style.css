@@ -1,0 +1,285 @@
+/*
+Background Colors:
+
+#021A72: Dark blue used for the navbar and footer background.
+#3170AD: Lighter blue used as part of the gradient for the header background.
+#F1F5F9: Even lighter blue used as part of the gradient for the header background.
+#fff: White, used as the background color for the body and some card elements.
+Card Colors:
+
+#EA205E: Reddish-pink, used as the background color for the first card.
+#ADD439: Green, used as the background color for the second card.
+#2E90E8: Blue, used as the background color for the third card.
+#E0E0E0: Light gray, used as the background color for some card elements.
+Button and Dropdown Colors:
+
+#F1F6E2: Light yellowish, used as the background color for the dropdown button.
+#ddd: Light gray, used as the background color for dropdown links on hover.
+#ADD439: Green, used as the background color for the dropdown button on hover.
+Other Colors:
+
+#E0E0E0: Light gray, used as the background color for some elements and as the hover background color for list items.
+#000: Black, used for text color.
+#fff: White, used for text color and some background elements.
+*/
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18pt;
+}
+
+body {
+    background-color: #fff !important;
+}
+
+/* navbar */
+nav {
+    background-color: #021A72;
+    height: 80px;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+/* navbar end */
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #F1F6E2;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #ADD439;
+}
+
+/* header */
+
+
+
+.banner {
+    height: 70vh;
+    min-height: 500px;
+    background-image: linear-gradient(#3170AD, #F1F5F9, #fff);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    width: 50%;
+    margin-top: 100px;
+
+}
+
+.icon {
+    height: 55px;
+    margin-left: 50vw;
+    margin-top: 50vh;
+}
+
+/* header end */
+
+/* card index */
+
+.card1 {
+    height: 100%;
+    text-align: center;
+    border-radius: 25%;
+    background-color: #EA205E !important;
+    border-radius: 25% 25% 0% 0% !important;
+
+}
+
+.card2 {
+    height: 100%;
+    text-align: center;
+    border-radius: 25%;
+    background-color: #ADD439 !important;
+    border-radius: 25% 25% 0% 0% !important;
+}
+
+.card3 {
+    height: 100%;
+    text-align: center;
+    border-radius: 25%;
+    background-color: #2E90E8 !important;
+    border-radius: 25% 25% 0% 0% !important;
+}
+
+.card img {
+    border-radius: 30% 30% 0% 0%;
+}
+
+/* card index end */
+
+/* card intro */
+.card_intro {
+    border-radius: 10px !important;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* card intro end */
+
+/* card de titulo */
+
+.bcontent .col-sm {
+    padding: 0 !important;
+}
+
+.titulo_img_left {
+    border-radius: 20% 0% 0% 0% !important;
+    height: 100%;
+}
+
+.titulo_img_right {
+    border-radius: 0% 0% 20% 0% !important;
+    height: 100%;
+}
+
+.card {
+    border-color: transparent !important;
+}
+
+.card-body {
+    height: 100%;
+}
+
+.texto {
+    background-color: #fff;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 50px;
+}
+
+.texto p {
+    text-indent: 30px;
+}
+
+.bcontent {
+    margin-bottom: 90px;
+}
+
+.bcontent .card {
+    background-color: transparent !important;
+}
+
+/* card lugares  */
+.card-img {
+    height: 100%;
+    border-radius: 0%;
+
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card_info img {
+    border-radius: 0%;
+}
+
+
+
+/* conteudo */
+.container .card .row .card-body {
+    background-color: #E0E0E0;
+}
+
+.texto li:hover {
+    background-color: transparent;
+}
+
+.conteudo .card-title {
+    margin-top: 40%;
+}
+
+/*Animação Cards */
+.card {
+    transition: all 0.3s;
+
+}
+
+.animation:hover {
+    transform: scale(1.15);
+    opacity: 0.8;
+}
+
+.card-text {
+    text-indent: 30px;
+}
+
+/* footer */
+footer {
+    background-color: #021A72;
+    height: 60px;
+    width: 100%;
+}
+
+.setinha {
+    background-color: #E0E0E0;
+    position: absolute;
+    border-radius: 36px;
+    padding: 10px 10px;
+    display: inline-block;
+    height: 50px;
+    line-height: 30px;
+    position: fixed;
+    z-index: +1;
+    right: 20px;
+    bottom: 5px;
+}
+
+.setinha:hover {
+    text-decoration: none;
+}
