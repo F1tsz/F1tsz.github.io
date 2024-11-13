@@ -1,4 +1,27 @@
+/*
+Background Colors:
 
+#021A72: Dark blue used for the navbar and footer background.
+#3170AD: Lighter blue used as part of the gradient for the header background.
+#F1F5F9: Even lighter blue used as part of the gradient for the header background.
+#fff: White, used as the background color for the body and some card elements.
+Card Colors:
+
+#EA205E: Reddish-pink, used as the background color for the first card.
+#ADD439: Green, used as the background color for the second card.
+#2E90E8: Blue, used as the background color for the third card.
+#E0E0E0: Light gray, used as the background color for some card elements.
+Button and Dropdown Colors:
+
+#F1F6E2: Light yellowish, used as the background color for the dropdown button.
+#ddd: Light gray, used as the background color for dropdown links on hover.
+#ADD439: Green, used as the background color for the dropdown button on hover.
+Other Colors:
+
+#E0E0E0: Light gray, used as the background color for some elements and as the hover background color for list items.
+#000: Black, used for text color.
+#fff: White, used for text color and some background elements.
+*/
 * {
     padding: 0;
     margin: 0;
@@ -96,12 +119,14 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .banner img {
-    width: 100vh;
-    margin-top: 140px;
+    min-width: 100vh;
+    width: 100%;
     margin-left: 0;
+    margin-top: 140px;
 }
 
 .icon {
